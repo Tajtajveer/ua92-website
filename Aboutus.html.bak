@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Singh Mobiles</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="script.js">
+    <style>
+        strong{
+            color: #563d7c;
+        }
+        p{
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+
+
+
+<div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Home</a>
+    <a href="Aboutus.html">About US</a>
+	<a href="Service.html">Mobiles</a>
+	<a href="Service.html">Contact Us</a>
+	    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+<hr>
+<div style="text-align: center">
+<h1>Singh Mobiles</h1>
+    <marquee  behavior="scroll" direction="left" style="background-color:lightgrey; margin-bottom: 0; color: #563d7c">
+        <span>Singh Mobiles - Get the Latest Collection at the Best Price!!! </span>
+    </marquee>
+	<p> In this fast-moving era, where smartphones are not only a need but a habit, what is more, fruitful than a  mobile shop which requires the minimum investment a business venture can require for such a  demanding market.
+	We are providing the Mobile Phones of all Models and Companies at the best competative price with instant delivery and COD as cash on Delivery.
+	</p>
+	<a href="">Mobile Collection List 2022</a>
+
+	
+	    <br><br><br><br><br>
+		<!--
+<h1>Contact to know more</h1>
+<p style="text-align: center">Send Your Query to Singh Mobiles</p>
+<div class="contactbg"></div>
+<hr>
+<h3>Type Your Query Here</h3>
+<form action="#">
+    <input type="text" placeholder="Query about Mobile Model">
+	<input type="text" placeholder="Name">
+	<input type="text" placeholder="Contact#">
+    <br><br>
+    <Button>Submit</Button>
+</form> -->
+
+
+
+</div>
+
+</body>
+<footer style="background-color: black; color: white; height: 50px; text-align: center "><br>
+    <span>Copyrights by Singh Mobiles-2022</span>
+</footer>
+</html>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>

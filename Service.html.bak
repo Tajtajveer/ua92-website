@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mobile Phones</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+<body>
+
+
+<div class="topnav" id="myTopnav">
+    <a href="index.html" >Home</a>
+    <a href="Service.html" class="active">MobilePhones</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+    </a>
+</div>
+<style>
+table, th, td {
+  border:1px solid black;
+    align: Left;
+}
+</style>
+<h1>Major Mobile Phone Models</h1>
+<hr>
+<hr>
+<table>
+  <tr>
+    <th>Model</th>
+    <th>Decsription</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td><img src="images/1.png"></td>
+    <td>Model-12, Top of the Line. 4GB ram, 128 GB ROM, 300 snapdragon</td>
+    <td>1500 Euro</td>
+  </tr>
+  <tr>
+    <td><img src="images/2.png"></td>
+    <td>Model-11, Top of the Line. 4GB ram, 64 GB ROM, 200 snapdragon</td>
+    <td>1200 Euro</td>
+  </tr>
+  <tr>
+    <td><img src="images/3.png"></td>
+    <td>Model-10, Top of the Line. 4GB ram, 32 GB ROM, 100 snapdragon</td>
+    <td>1000 Euro</td>
+  </tr>
+  <tr>
+    <td><img src="images/4.png"></td>
+    <td>Model-09, Top of the Line. 4GB ram, 16 GB ROM, 80 snapdragon</td>
+    <td>900 Euro</td>
+  </tr>
+  <tr>
+    <td><img src="images/5.png"></td>
+    <td>Model-08, Top of the Line. 4GB ram, 8 GB ROM, 50 snapdragon</td>
+    <td>750 Euro</td>
+  </tr>
+</table>
+
+<hr>
+
+
+
+</body>
+<br><br><br><br><br><br>
+<footer style="background-color: black; color: white; height: 50px; text-align: center "><br>
+    <span>Copyrights by My Garage-2022</span>
+</footer>
+</html>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
